@@ -1,0 +1,40 @@
+.but{
+    width: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.butp{
+    background: green;
+}
+.butm{
+    background: yellow;
+}
+
+.delete a i{
+    color: red;
+}
+
+.tot{
+    margin-top: 25px;
+}
+
+/* button */
+
+.btnstar button {
+    padding: 10px 20px;
+    background-color: hsl(350, 100%, 41%);
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 240px;
+    margin-top: 10px;
+}
+
+.btnstar button:hover {
+    background-color: #fff;
+    color: #D10024;
+    border: #D10024 solid 2px;
+}

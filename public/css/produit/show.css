@@ -1,0 +1,43 @@
+
+
+
+.description{
+    text-align: justify;
+}
+/* price */
+.item-price {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+.item-price strike{
+    color: #888;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.item-price span {
+    color: #000;
+    font-weight: bold;
+}
+/* button */
+
+.btnstar button {
+    padding: 10px 20px;
+    background-color: hsl(350, 100%, 41%);
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.btnstar button:hover {
+    background-color: #fff;
+    color: #D10024;
+    border: #D10024 solid 2px;
+}

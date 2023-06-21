@@ -1,0 +1,108 @@
+body{
+    background-color: white;
+}
+/* ---- side bar ----*/
+
+
+
+
+.cardstyle{
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+}
+.thumb-content{
+    align-content: center;
+    padding-top: 10px;
+}
+.star-rating{
+    align-items: center;
+}
+/* img */
+.img-box {
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+	height: 150px;
+  }
+  .thumb-content {
+    margin-bottom: 15px;
+  }
+.img-box img{
+    margin: 0;
+    border-radius: 5px;
+    position: absolute;
+	left: -100%;         /* anchor the image corners outside the viewable area (increase for large images) */
+	right: -100%;
+	top: -100%;
+	bottom: -100%;
+	width: auto;         /* dynamic width based on viewable area */
+	height: 150px;       /* set height (swap these for variable height) */
+	margin: auto;
+}
+/* stars */
+.star-rating{
+    color: #ffc000;
+}
+.btnstar button{
+
+}
+/* icon */
+.wish-icon i{
+    padding-bottom: 10px;
+}
+.wish-icon i:hover{
+    color: #D10024;
+}
+/* price */
+.item-price {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+.item-price strike{
+    color: #888;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.item-price span {
+    color: #000;
+    font-weight: bold;
+}
+/* button */
+.btnstar button {
+    padding: 10px 20px;
+    background-color: hsl(350, 100%, 41%);
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+        border-radius: 25px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.btnstar button:hover {
+    background-color: #fff;
+    color: #D10024;
+    border: #D10024 solid 2px;
+}
+
+.thumb-content h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
